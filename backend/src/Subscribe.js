@@ -28,6 +28,7 @@ module.exports = {
               console.log('live stream found');
               end(null, items);
             }
+            end(null);
           } catch (error) {
             end(error);
           }
